@@ -16,7 +16,7 @@
 .footer__brand {
   display: flex;
   flex-direction: column;
-  gap: var(--space-sm);
+  gap: var(--space-md);
 }
 
 .footer__logo {
@@ -26,6 +26,13 @@
   display: flex;
   align-items: center;
   gap: var(--space-sm);
+}
+
+.footer__logo-img {
+  width: 96px;
+  height: auto;
+  display: block;
+  border-radius: var(--radius-sm);
 }
 
 .footer__desc {

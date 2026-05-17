@@ -17,7 +17,7 @@ export class Footer extends Component {
     el.innerHTML = `
       <div class="footer__inner">
         <div class="footer__brand">
-          <div class="footer__logo">🏷️ БУ Маркет</div>
+          <img class="footer__logo-img" src="./favicon.png" alt="БУ Маркет" />
           <p class="footer__desc">
             Клиентская часть интернет-ресурса для размещения объявлений о продаже подержанных вещей.
             Курсовая работа по дисциплине «Фронтенд-разработка».

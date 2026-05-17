@@ -21,9 +21,8 @@ export class Header extends Component {
     el.className = 'header';
     el.innerHTML = `
       <div class="header__inner">
-        <a class="header__logo" href="#/" data-link>
-          <span class="header__logo-icon">🏷️</span>
-          <span>БУ Маркет</span>
+        <a class="header__logo" href="#/" data-link aria-label="БУ Маркет">
+          <img class="header__logo-img" src="./favicon.png" alt="БУ Маркет" />
         </a>
         <nav class="nav">
           <button class="nav__toggle" id="nav-toggle" aria-label="Меню">
