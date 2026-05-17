@@ -44,7 +44,7 @@ export class Footer extends Component {
       </div>
       <div class="footer__bottom">
         <span>© ${year} МИРЭА — Российский технологический университет</span>
-        <a class="footer__github" href="https://github.com/" target="_blank" rel="noopener">
+        <a class="footer__github" href="https://github.com/arsikbr06-creator/BUmarketKurs" target="_blank" rel="noopener">
           ⭐ Исходный код на GitHub
         </a>
       </div>
