@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@import './base/variables.css';
+@import './base/reset.css';
+
+@import './blocks/header.css';
+@import './blocks/footer.css';
+@import './blocks/loader.css';
+@import './blocks/home.css';
+@import './blocks/catalog.css';
+@import './blocks/search-bar.css';
+@import './blocks/filter-panel.css';
+@import './blocks/listing-card.css';
+@import './blocks/listing-detail.css';
+@import './blocks/create-form.css';
+@import './blocks/profile.css';
+
+/* Общий layout */
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+/* Страница 404 */
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-3xl) var(--container-padding);
+  text-align: center;
+  flex: 1;
+}
+
+.not-found__code {
+  font-size: 8rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  line-height: 1;
+  opacity: 0.15;
+}
+
+.not-found__title {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  margin-top: calc(-1 * var(--space-xl));
+  margin-bottom: var(--space-md);
+}
+
+.not-found__text {
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-xl);
+}
+
+.not-found__btn {
+  background: var(--color-primary);
+  color: #fff;
+  padding: var(--space-sm) var(--space-xl);
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  transition: background var(--transition);
+}
+
+.not-found__btn:hover {
+  background: var(--color-primary-dark);
+}
